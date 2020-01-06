@@ -1,0 +1,55 @@
+* {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  vertical-align:top;
+}
+body{
+  background:#000;
+}
+
+#select-midi-output-ch,#select-midi-output-device{
+  font-size: 10px;
+  color: #999;
+  border-radius: 0;
+  border: none;
+  height: 30px;
+  background:#000
+}
+#select-midi-output-ch:hover,#select-midi-output-device:hover{
+  color:#666;
+}
+
+.nanokon{
+  margin:auto;
+  display:table;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.line{
+  display: table;
+  table-layout: fixed;
+}
+.btn{
+  display: table-cell;
+}
+
+/* BTN */
+.btn{
+  width:40px;
+  height:40px;
+  border-radius:8px;
+  border:solid 2px #000;
+  background:#222;
+  margin-bottom:4px;
+  color:rgba(255,255,255,0.4);
+  text-align: center;
+  vertical-align: middle;
+}
+.btn.active{
+  background:#0c5;
+}
+
