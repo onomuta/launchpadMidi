@@ -37,6 +37,13 @@ body{
   display: table-cell;
 }
 
+.line:first-child .btn{
+  background: #333;
+}
+.btn:last-child{
+  background: #333;
+}
+
 /* BTN */
 .btn{
   width:40px;
@@ -50,6 +57,6 @@ body{
   vertical-align: middle;
 }
 .btn.active{
-  background:#0c5;
+  background:#5ad !important;
 }
 
