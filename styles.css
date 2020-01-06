@@ -40,6 +40,16 @@ body{
 .line:first-child .btn{
   background: #333;
 }
+
+.line:nth-child(n+2):nth-child(-n+5) .btn:nth-child(-n+4),
+.line:nth-child(n+6) .btn:nth-child(n+5):nth-child(-n+8) {
+  background: #135;
+}
+
+/* .line:nth-child(-n+4){
+  background: red;
+} */
+
 .btn:last-child{
   background: #333;
 }
